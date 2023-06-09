@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: icici
+  name: icici
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: icici
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: icici
+    spec:
+      imagePullSecrets:
+        - name: regcred
+      containers:
+      - image: mkdocket/test:v1
+        name: test
+        resources:
+          limits:
+            cpu: 1000m
+            memory: 1000Mi
+          requests:
+            cpu: 500m
+            memory: 500Mi
+status: {}

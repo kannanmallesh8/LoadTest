@@ -1,0 +1,33 @@
+version: '3.9'
+
+services:
+  app:
+    image: mkdocket/test:v1
+    ports:
+      - "8080:8080"
+    environment:
+#      - DB_URL=jdbc:mysql://localhost:3307/users_database?createDatabaseIfNotExist=true&useSSL=false&allowPublicKeyRetrieval=true
+      - DB_URL="jdbc:mysql://monitoring.csbnasw3omzp.us-east-1.rds.amazonaws.com:3306/whatsapp?useSSL=false&useLegacyDatetimeCode=false&serverTimezone=UTC"
+      - DB_USERNAME=admin
+      - DB_PASSWORD=Thisismypassword1!
+      - AWS_ACCESS_KEY_ID=AKIASLL2CZ4IOFIOQLYE
+      - AWS_REGION=us-east-1
+      - AWS_SECRET_ACCESS_KEY=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
+#    depends_on:
+#      - db
+#
+#  db:
+#    image: mysql:latest
+#    ports:
+#      - "3307:3306"
+#    restart: always
+#    environment:
+#      - MYSQL_ROOT_PASSWORD=mysecretpassword
+#      - MYSQL_DATABASE=mydatabase
+#      - MYSQL_USER=myuser
+#      - MYSQL_PASSWORD=mypassword
+#    volumes:
+#      - db-data:/var/lib/mysql
+#
+#volumes:
+#  db-data:

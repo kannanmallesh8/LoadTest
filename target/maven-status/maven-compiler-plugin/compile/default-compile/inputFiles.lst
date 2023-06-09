@@ -1,0 +1,9 @@
+/Users/malleshkannanr/Documents/Icici/ICICITestApp/src/main/java/com/icic/test/app/exception/ErrorDetails.java
+/Users/malleshkannanr/Documents/Icici/ICICITestApp/src/main/java/com/icic/test/app/s3bucket/S3Util.java
+/Users/malleshkannanr/Documents/Icici/ICICITestApp/src/main/java/com/icic/test/app/model/User.java
+/Users/malleshkannanr/Documents/Icici/ICICITestApp/src/main/java/com/icic/test/app/SpringBootCrudRestApplication.java
+/Users/malleshkannanr/Documents/Icici/ICICITestApp/src/main/java/com/icic/test/app/exception/GlobalExceptionHandler.java
+/Users/malleshkannanr/Documents/Icici/ICICITestApp/src/main/java/com/icic/test/app/controller/UserController.java
+/Users/malleshkannanr/Documents/Icici/ICICITestApp/src/main/java/com/icic/test/app/exception/ResourceNotFoundException.java
+/Users/malleshkannanr/Documents/Icici/ICICITestApp/src/main/java/com/icic/test/app/s3bucket/MainController.java
+/Users/malleshkannanr/Documents/Icici/ICICITestApp/src/main/java/com/icic/test/app/repository/UserRepository.java

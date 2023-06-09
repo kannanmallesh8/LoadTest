@@ -1,0 +1,9 @@
+com/icic/test/app/controller/UserController.class
+com/icic/test/app/repository/UserRepository.class
+com/icic/test/app/exception/ErrorDetails.class
+com/icic/test/app/SpringBootCrudRestApplication.class
+com/icic/test/app/exception/ResourceNotFoundException.class
+com/icic/test/app/exception/GlobalExceptionHandler.class
+com/icic/test/app/s3bucket/S3Util.class
+com/icic/test/app/s3bucket/MainController.class
+com/icic/test/app/model/User.class
